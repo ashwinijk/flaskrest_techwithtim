@@ -11,7 +11,7 @@ class HelloWorld(Resource):
     def post(self):
         return {"data": "Posted"}
 
-api.add_resource(HelloWorld, "/")
+api.add_resource(HelloWorld, "/helloworld")
 
 if __name__ == "__main__":
     app.run()
